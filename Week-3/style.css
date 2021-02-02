@@ -19,5 +19,6 @@ p{
 
 nav .li{
     display: inline;
+    text-decoration: none;
 }
 
