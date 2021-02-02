@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    list-style: none;
+}
+h1{
+    padding-bottom: 2rem;
+}
+p{
+    padding-bottom: 1rem;
+}
+
