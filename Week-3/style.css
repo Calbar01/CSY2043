@@ -1,21 +1,23 @@
 * {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
     list-style: none;
 }
 h1{
     padding-bottom: 2rem;
+    text-align: center;
 }
 p{
     padding-bottom: 2rem;
     font-size: 20px;
+    text-align: center;
 }
-li{
+.details{
     font-size: 20px;
+    text-align: center;
 }
 
-nav{
+nav .li{
     display: inline;
 }
 
