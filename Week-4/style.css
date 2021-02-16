@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /*Exercise 1 */
 
 .part1 h2{
@@ -44,3 +48,31 @@
  .csym019{
      background-color: red;
  }
+
+
+ /*Exercise 3*/
+.csy2038, 
+.csy2027,
+.csy2041,
+.csy2028{
+     display:block;
+     float: left;
+     width: 50%;
+     height: 470px;
+ }
+
+ .csy2038{
+     background-color: green;
+ }
+
+ .csy2027{
+     background-color: red;
+ }
+
+ .csy2041{
+    background-color: blue;
+}
+
+.csy2028{
+    background-color: yellow;
+}
