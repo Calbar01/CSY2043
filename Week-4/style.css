@@ -29,3 +29,18 @@
      color: green;
  }
 
+ /*Exercise 2*/
+ .csym019, 
+ .csym015{
+     display:block;
+     float: left;
+     width: 50%;
+ }
+
+ .csym015{
+     background-color: green;
+ }
+
+ .csym019{
+     background-color: red;
+ }
