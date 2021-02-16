@@ -76,3 +76,43 @@
 .csy2028{
     background-color: yellow;
 }
+
+/*Exercise 4*/
+header > h1{
+    background-color: yellow;
+    height: 100px;
+}
+
+.left, 
+.middle,
+.right{
+    display: block;
+    float: left;
+}
+
+.left, .right{
+    width: 25%;;
+}
+
+.middle{
+    width: 50%;
+    background-color: blue;
+    height: 830px;
+    color: white;
+}
+
+.right, .left{
+    background-color:greenyellow;
+    height: 830px;
+}
+
+
+
+
+footer{
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: red;
+}
