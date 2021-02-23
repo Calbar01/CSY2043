@@ -21,6 +21,7 @@ header{
 nav{
     background-color: yellow;
     grid-area: nav;
+    height: 89.9vh;
 }
 
 main{
