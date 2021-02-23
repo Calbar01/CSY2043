@@ -84,7 +84,7 @@ footer{
 }
 */
 
-/*Exercise 2b */
+/*Exercise 2b 
 body{
     display: grid;
     grid-template: 80% 20%;
@@ -123,4 +123,53 @@ footer{
     background: darkgreen;
     color: white;
     grid-area: footer;
+}
+*/
+
+/*Exercise 2c */
+body{
+    display: grid;
+    grid-template: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header"
+                        "nav nav nav"
+                        "main main aside"
+                        "footer footer footer";
+}
+
+header{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+
+nav{
+    background-color: yellow;
+    grid-area: nav;
+    height: 5vh;
+}
+
+main{
+    background-color: darkblue;
+    color: white;
+    grid-area: main;
+    height: 10vh;
+}
+
+aside{
+    background-color: lightgreen;
+    grid-area: aside;
+}
+
+footer{
+    background: darkgreen;
+    color: white;
+    grid-area: footer;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 250px;
 }
