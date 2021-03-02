@@ -8,12 +8,23 @@ function print5(){
 print5();
 print5();
 
-function updateAfterLoad(){
-    let heading = document.getElementById('heading');
+
+function updateParagraph(){
     let paragraph = document.getElementById('paragraph');
-    heading.firstChild.nodeValue = 'Updated heading';
-    paragraph.firstChild.nodeValue = 'Updated paragraph';
+    paragraph.firstChild.nodeValue = 'New Paragraph';
 }
 
-document.addEventListener('click', updateAfterLoad);
+function updateHeading(){
+    let heading = document.getElementById('heading');
+    heading.firstChild.nodeValue = 'Updated heading';
+}
+
+function onClick(){
+    let heading = document.getElementById('heading');
+    heading.addEventListener('click',updateHeading);
+
+    let paragraph = document.getElementById('paragraph');
+    paragraph.addEventListener('click',updateParagraph);
+}
+document.addEventListener('DOMContentLoaded', onClick);
 
