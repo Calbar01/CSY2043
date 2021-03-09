@@ -5,19 +5,14 @@
 //Fourth exercise to nset opacity to 1 from the css 0.5
 //Exercise 5 to increase opacity by 0.1 on each click
 //Exercise 6 to dcrease opacity by 0.01 every hundredth of a second
-function myInterval(){
+//Exercise 7 to move the circle to the left every click of the down button
+function keyDown(){
     let circle = document.getElementById('circle');
-    let circleOpacity = circle.style.opacity;
-    circle.style.opacity = circleOpacity - 0.01;
-}
-
-function clickEvent(){
-    setInterval(myInterval, 10);
+    let posLeft = circle.offsetLeft;
+    circle.style.left = posLeft - 10 + 'px';
 }
 
 function changeCircle(){
-    let circle = document.getElementById('circle');
-    circle.addEventListener('click', clickEvent);
-    circle.style.opacity = 1;
+    document.addEventListener('keydown', keyDown);
 }
 document.addEventListener('DOMContentLoaded', changeCircle);
