@@ -6,10 +6,12 @@
 //Exercise 5 to increase opacity by 0.1 on each click
 //Exercise 6 to dcrease opacity by 0.01 every hundredth of a second
 //Exercise 7 to move the circle to the left every click of the down button
-function keyDown(){
+//Exercise 8 to add a console log to check when a button is clicked
+function keyDown(event){
     let circle = document.getElementById('circle');
     let posLeft = circle.offsetLeft;
     circle.style.left = posLeft - 10 + 'px';
+    console.log(event.keyCode);
 }
 
 function changeCircle(){
