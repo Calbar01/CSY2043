@@ -13,5 +13,6 @@ function clickEvent(){
 function changeCircle(){
     let circle = document.getElementById('circle');
     circle.addEventListener('click', clickEvent);
+    circle.style.opacity = 0.5;
 }
 document.addEventListener('DOMContentLoaded', changeCircle);
