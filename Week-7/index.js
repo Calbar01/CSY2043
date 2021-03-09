@@ -7,11 +7,43 @@
 //Exercise 6 to dcrease opacity by 0.01 every hundredth of a second
 //Exercise 7 to move the circle to the left every click of the down button
 //Exercise 8 to add a console log to check when a button is clicked
-function keyDown(event){
+//Exercise 9 to allow circle to move on click of button
+function moveUp(){
+    let circle = document.getElementById('circle');
+    let posTop = circle.offsetTop;
+    circle.style.top = posTop - 1 + 'px';
+}
+
+function moveDown(){
+    let circle = document.getElementById('circle');
+    let posTop = circle.offsetTop;
+    circle.style.top = posTop + 1 + 'px';
+}
+
+function moveLeft(){
     let circle = document.getElementById('circle');
     let posLeft = circle.offsetLeft;
-    circle.style.left = posLeft - 10 + 'px';
-    console.log(event.keyCode);
+    circle.style.left = posLeft - 1 + 'px';
+}
+function moveRight(){
+    let circle = document.getElementById('circle');
+    let posLeft = circle.offsetLeft;
+    circle.style.left = posLeft + 1 + 'px';
+}
+
+function keyDown(event){
+    if(event.keyCode === 37){
+        setInterval(moveLeft, 10);
+    }
+    if(event.keyCode === 38){
+        setInterval(moveUp, 10);
+    }
+    if(event.keyCode === 39){
+        setInterval(moveRight, 10);
+    }
+    if(event.keyCode === 40){
+        setInterval(moveDown, 10);
+    }
 }
 
 function changeCircle(){
