@@ -4,6 +4,7 @@ function clickEvent(){
     //alert('Circle was pressed');
     let circle = document.getElementById('circle');
     circle.style.backgroundColor = 'blue';
+    circle.style.opacity = 0.5;
 }
 
 function changeCircle(){
