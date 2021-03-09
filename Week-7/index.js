@@ -2,12 +2,13 @@
 //Second exercise to change background color to blue on click
 //Third exercise to set opacity to 0.5
 //Fourth exercise to nset opacity to 1 from the css 0.5
+//Exercise 5 to increase opacity by 0.1 on each click
 function clickEvent(){
     //alert('Circle was pressed');
     let circle = document.getElementById('circle');
-    circle.style.backgroundColor = 'blue';
-    circle.style.opacity = 1;
-    circle.style.transitionDuration = '2s';
+    let opacity = parseFloat(circle.style.opacity);
+    circle.style.opacity = opacity + 0.1;
+    console.log(opacity);
 }
 
 function changeCircle(){
