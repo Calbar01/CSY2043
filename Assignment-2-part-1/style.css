@@ -69,7 +69,7 @@ h2{
 
 .background-rectangle{
     width: 1298px;
-    height: 290px;
+    height: 300px;
     background: #C5ECF4;
     border-radius:25px;
 }
@@ -79,4 +79,10 @@ h2{
     height: 290px;
     background:#9CDDEB;
     border-radius:25px ;
+}
+
+.rectangles{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
 }
