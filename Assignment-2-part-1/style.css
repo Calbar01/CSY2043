@@ -70,9 +70,12 @@ h2{
 
 .background-rectangle{
     width: 1298px;
-    height: 300px;
+    height: 290px;
     background: #C5ECF4;
     border-radius:25px;
+    padding-top: 25px;
+    padding-right: 25px;
+
 }
 
 .foreground-rectangle{
@@ -86,10 +89,11 @@ h2{
     display: flex;
     justify-content: center;
     padding-top: 25px;
+    height: 100%;
 }
 
 .peopleImage{
-    height: 412px;
+    height: 395px;
     width: 620px;
 }
 
