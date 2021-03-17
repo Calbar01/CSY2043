@@ -10,8 +10,8 @@ body{
     display: grid;
     grid-template: 100% 100%;
     grid-template-rows: auto;
-    grid-template-areas: "header header"
-                        "main main";
+    grid-template-areas: "header"
+                        "main";
 }
 
 header{
@@ -46,4 +46,37 @@ li{
 a{
     color: black;
     text-decoration: underline;
+}
+
+.mainNav{
+    padding-top: 25px;
+}
+
+h1,
+h2{
+    font-family: 'Esteban', serif;
+    text-align:center;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 48px;
+}
+
+.background-rectangle{
+    width: 1298px;
+    height: 290px;
+    background: #C5ECF4;
+    border-radius:25px;
+}
+
+.foreground-rectangle{
+    width: 1298px;
+    height: 290px;
+    background:#9CDDEB;
+    border-radius:25px ;
 }
