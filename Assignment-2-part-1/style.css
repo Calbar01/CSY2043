@@ -12,6 +12,7 @@ body{
     grid-template-rows: auto;
     grid-template-areas: "header"
                         "main";
+    overflow: hidden;
 }
 
 header{
@@ -85,4 +86,15 @@ h2{
     display: flex;
     justify-content: center;
     padding-top: 25px;
+}
+
+.peopleImage{
+    height: 412px;
+    width: 620px;
+}
+
+.homeFooter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
