@@ -212,3 +212,13 @@ background: #9CDDEB;
     height: 150px;
     margin-left: 10px;
 }
+
+/* PLANS SECTION  */
+.plansText{
+width: 1239px;
+height: 219px;
+margin-left: 300px;
+margin-top: 20px;
+background: rgba(156, 221, 235, 0.19);
+text-align: center;
+}
