@@ -121,3 +121,11 @@ font-style: normal;
 font-weight: 400;
 letter-spacing: 0em;
 }
+
+.footer{
+position: fixed;
+width: 100%;
+bottom: 0;
+height: 112px;
+background: #9CDDEB;
+}
