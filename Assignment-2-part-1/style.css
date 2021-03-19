@@ -132,8 +132,9 @@ height: 112px;
 background: #9CDDEB;
 }
 
-i{
-    color: #77B9C8;
+.icon{
+    width: 85px;
+    height: 83px;
     margin-left: 400px;
     margin-top: 15px;
 }
