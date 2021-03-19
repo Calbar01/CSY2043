@@ -159,7 +159,7 @@ background: #9CDDEB;
 .aboutInfo-c{
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
 }
 
 .aboutInfo-a,
@@ -201,4 +201,14 @@ background: #9CDDEB;
     grid-column-end: 2;
     margin-top: 25px;
     text-align: left;
+}
+
+.yogaPerson{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
 }
