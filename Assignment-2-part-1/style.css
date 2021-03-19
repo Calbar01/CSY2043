@@ -123,6 +123,8 @@ letter-spacing: 0em;
 }
 
 .footer{
+display: inline;
+float: left;
 position: fixed;
 width: 100%;
 bottom: 0;
@@ -130,6 +132,8 @@ height: 112px;
 background: #9CDDEB;
 }
 
-.fa{
-    font-size: 100px;
+i{
+    color: #77B9C8;
+    margin-left: 400px;
+    margin-top: 15px;
 }
