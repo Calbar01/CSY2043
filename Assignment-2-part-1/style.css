@@ -1,9 +1,14 @@
+/* FONT IMPORT  */
 @import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
+
+/* Initialises no margin and padding */
 * {
     margin: 0;
     padding: 0;
 }
 
+
+/* REUSABLE CODE THROUGHOUT */
 body{
     height: 100%;
     width: 100%;
@@ -68,6 +73,15 @@ h2{
     font-size: 48px;
 }
 
+p{
+    font-family: 'Esteban', serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    }
+
+/* HOME PAGE  */
 .background-rectangle{
     width: 1298px;
     height: 290px;
@@ -114,14 +128,7 @@ h2{
     text-align: center;
 }
 
-p{
-font-family: 'Esteban', serif;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 0em;
-}
-
+/* REUSABLE FOOTER */
 .footer{
 display: inline;
 float: left;
@@ -137,4 +144,46 @@ background: #9CDDEB;
     height: 83px;
     margin-left: 400px;
     margin-top: 15px;
+}
+
+/* ABOUT US SECTION */
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 25% 25% 25% 25%;
+    height: 100%;
+}
+
+.aboutInfo-a,
+.aboutInfo-b{
+    width: 400px;
+    height: 202px;
+    border-radius: 25px;
+    background: #9CDDEB;
+}
+
+.aboutInfo-a{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.aboutInfo-b{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.aboutInfo-c{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 400px;
+    height: 202px;
+    border-radius: 25px;
+    background: white;
+    border: 5px solid #9CDDEB;
 }
