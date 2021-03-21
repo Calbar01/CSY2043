@@ -214,6 +214,7 @@ background: #9CDDEB;
 }
 
 /* PLANS SECTION  */
+/*Help found from https://stackoverflow.com/questions/40077096/how-do-i-draw-a-horizontal-line-between-two-circles-with-css*/
 .plansText{
 width: 1239px;
 height: 219px;
