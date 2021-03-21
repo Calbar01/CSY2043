@@ -250,6 +250,7 @@ text-align: center;
       width: 225px;
       border-radius: 50%;
       filter: blur(1px);
+      cursor: pointer;
     }
 
 /* MODAL STYLING */
