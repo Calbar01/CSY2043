@@ -320,3 +320,14 @@ text-align: center;
     font-size: 30px;
     padding-top: 40px;
 }
+
+.testimonialImage{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.imageContainer{
+    padding-top: 50px;
+}
