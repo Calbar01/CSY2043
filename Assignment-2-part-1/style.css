@@ -1,5 +1,6 @@
 /* FONT IMPORT  */
 @import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade&display=swap');
 
 /* Initialises no margin and padding */
 * {
@@ -352,6 +353,11 @@ text-align: center;
 }
 
 /* ENQUIRY SECTION */
+div.form{
+    display: block;
+    text-align: center;
+}
+
 form{
     margin: 0 auto;
   width: 590px;
@@ -360,5 +366,39 @@ form{
   border: 5px solid #9CDDEB;
   border-radius: 75px;
   background-color: white;
+  display: inline-block;
 }
+
+input[type=text], button{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-style: none;
+    font-family: 'Scheherazade', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 42px;
+  }
+
+  input[type=text]{
+    width: 496px;
+    height: 50px;
+    background: #9CDDEB;
+  }
+
+  button{
+      width: 394px;
+      height: 90px;
+      background: #4F5FED;
+      border-radius: 100px;
+      font-weight: bold;
+    font-size: 40px;
+    line-height: 68px;
+    color: #FFFFFF;
+  }
+
+
 
