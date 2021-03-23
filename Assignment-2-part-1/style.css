@@ -395,9 +395,9 @@ input[type=text], button{
       background: #4F5FED;
       border-radius: 100px;
       font-weight: bold;
-    font-size: 40px;
-    line-height: 68px;
-    color: #FFFFFF;
+      font-size: 40px;
+      line-height: 68px;
+      color: #FFFFFF;
   }
 
 
