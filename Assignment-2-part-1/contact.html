@@ -22,7 +22,35 @@
         </nav>
     </header>
     <main>
-        
+        <form>
+            <h1 class="contacttitle">Enquiries</h1>
+    <!--the 'form' tag is used here to create a form where users can contact me on-->
+        <form name="messageForm">
+            <!--the form is in an unordered list to help with the organisation-->
+            <ul class="form">
+                <li class="label">
+                    <!--each 'label' is an element in the form, such as 'name' 'email' and 'message'-->
+                    <input type="text" class="firstname" name="firstname" value="First name: ">
+                </li>
+                <li class="label">
+                    <input type="text" class="surname" name="surname" value="Surname: ">
+                </li>
+                <li class="label">
+                    <input type="email" class="mail" name="email" value="E-mail Address: ">
+                </li>
+                <li class="label">
+                    <input type="text" class="number" name="number" value="Contact number: ">
+                </li>
+                <li class="label">
+                    <input type="text" class="title" name="title" value="Job Title: ">
+                </li>
+                <!--this final element is the button the user clicks to send the form-->
+                <li class="button">
+                    <button type="submit">SUBMIT!</button>
+                </li>
+            </ul>
+        </form>
+        </form>
     </main>
     <footer class="footer">
         <a href="#"><img src="images/facebook.png" class="icon"></a>

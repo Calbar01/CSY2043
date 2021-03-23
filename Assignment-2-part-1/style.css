@@ -350,3 +350,15 @@ text-align: center;
 .testimonialText > p{
     padding-top: 20%;
 }
+
+/* ENQUIRY SECTION */
+form{
+    margin: 0 auto;
+  width: 590px;
+  height: 620px;
+  margin-top: 50px;
+  border: 5px solid #9CDDEB;
+  border-radius: 75px;
+  background-color: white;
+}
+
