@@ -400,5 +400,18 @@ input[type=text], button{
       color: #FFFFFF;
   }
 
+/* NOTES SECTION */
+.notesContainer{
+margin: auto;
+position: relative;
+top: 10px;
+width: 1252px;
+height: 580px;
+background: #FFFFFF;
+border: 5px solid #9cddeb;
+border-radius: 75px;
+}
 
-
+.notesContainer > h1 {
+    font-size: 48px;
+}
