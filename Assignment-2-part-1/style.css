@@ -415,3 +415,15 @@ border-radius: 75px;
 .notesContainer > h1 {
     font-size: 48px;
 }
+
+.emojiContainer{
+    display: inline;
+    float: left;
+}
+
+.emoji{
+    height: 150px;
+    width: 150px;
+    margin-left: 7em;
+    margin-top: 2em;
+}
